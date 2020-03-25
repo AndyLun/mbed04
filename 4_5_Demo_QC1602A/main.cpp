@@ -7,8 +7,8 @@ int main() {
 	int x = 30;
 	lcd.printf("ID: 107000270\n");
 
-	while(x > 0) {
-		lcd.locate(5, 1);
+	while(x >= 0) {
+		lcd.locate(4, 1);
 		lcd.printf("%5i", x);
 		wait(1);
 		x--;
